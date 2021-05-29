@@ -25,6 +25,7 @@ html, body {
 
 #profile {
     width: 200px;
+    -webkit-clip-path: circle(99px at center);
     clip-path: circle(99px at center);
 }
 
@@ -49,4 +50,10 @@ html, body {
 #handle span {
     filter: brightness(0.8);
     font-size: 75%;
+}
+
+a {
+    color:black;
+    background:white;
+    text-decoration: underline;
 }
