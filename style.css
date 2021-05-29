@@ -1,0 +1,52 @@
+html, body {
+    overflow: hidden;
+    font-family: VT323;
+    text-transform: uppercase;
+}
+
+.container {
+    background-image: url('scene.jpg');
+    background-size: 100vw;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+}
+
+.torso {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 48vh;
+    left: 42.5vw;
+    transform: rotate(1deg) scale(0.75) skewX(359deg);
+    filter: blur(1px) opacity(0.75);
+    align-items: center;
+}
+
+#profile {
+    width: 200px;
+    clip-path: circle(99px at center);
+}
+
+#name {
+    transform: scale(2);
+    color: floralwhite;
+    font-size: 18px;
+    text-align: center;
+}
+
+#handle {
+    width: 200px;
+    position: absolute;
+    top: 21vh;
+    left: 41vw;
+    color: floralwhite;
+    font-size: 275%;
+    filter: drop-shadow(2px 4px 2px black) opacity(0.90) opacity(0.9) blur(0.5px);
+    transform: rotate(0.5deg) skewX(361deg);
+}
+
+#handle span {
+    filter: brightness(0.8);
+    font-size: 75%;
+}
