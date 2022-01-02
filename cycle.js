@@ -24,7 +24,7 @@ function cycle() {
 
 var id;
 function start() {
-    id = setInterval(cycle, 100);
+    id = setInterval(cycle, 75);
     document.getElementById('button').setAttribute("onclick", "stop()");
     document.getElementById('button').innerHTML = "Stop";
 }
